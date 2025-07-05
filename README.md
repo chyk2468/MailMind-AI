@@ -159,13 +159,6 @@ Made with ❤️ by **Ch. Yashwant Kumar**
 
 ---
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-Feel free to fork, contribute, and improve it.
-
----
-
 ## 🌐 Deploying Online (Optional)
 
 You can deploy your app to:
