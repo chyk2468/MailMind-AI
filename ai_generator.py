@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-GOOGLE_API_KEY = "GOOGLE_API_KEY"
+GOOGLE_API_KEY = "GOOGLE_API_KEY" # Keep your API key here
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel("gemini-2.0-flash")
