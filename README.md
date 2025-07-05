@@ -159,16 +159,4 @@ Made with ❤️ by **Ch. Yashwant Kumar**
 
 ---
 
-## 🌐 Deploying Online (Optional)
-
-You can deploy your app to:
-
-* [Streamlit Cloud](https://streamlit.io/cloud)
-* [Hugging Face Spaces](https://huggingface.co/spaces)
-* [Render.com](https://render.com)
-
-Simply connect your GitHub repo and follow deployment steps.
-
----
-
 Enjoy the ✨ power of AI-assisted communication with **MailMind AI**!
