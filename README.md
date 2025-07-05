@@ -64,8 +64,15 @@ MailMind-AI/
 ---
 
 ## 📸 Sample Screenshot
+Step-1:- inter face
+![Step-1 Screenshot](https://github.com/user-attachments/assets/4cec8aca-c203-4c68-9940-7a0fd513b19a)
 
-![image](https://github.com/user-attachments/assets/0bbc9381-9c91-4453-a8bf-dfb937f27d2d)
+Step-2:- past the mail and click Generate Reply button
+![Step-2 Screenshot](https://github.com/user-attachments/assets/75f45176-3624-4c07-b0be-6a4cd35eb1cb)
+
+Step-3:- Reply Mail is Generated
+![Step-3 Screenshot](https://github.com/user-attachments/assets/2fb3fccf-83d1-44af-ae7d-a584b6e35594)
+
 
 
 ---
