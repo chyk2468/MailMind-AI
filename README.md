@@ -42,7 +42,7 @@ MailMind AI is an advanced email reply generator that uses **Google Gemini 2.0 F
 MailMind-AI/
 │
 ├── app.py               # Streamlit frontend and app logic
-├── ai\_generator.py      # Reply generation using Gemini 2.0 Flash
+├── ai_generator.py      # Reply generation using Gemini 2.0 Flash
 ├── README.md            # Project documentation (this file)
 ├── requirements.txt     # Required Python packages
 └── .streamlit/
