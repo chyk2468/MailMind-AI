@@ -1,87 +1,79 @@
 # MailMind AI
 
-**MailMind is a Streamlit app that finds similar example emails with a local vector store, then uses the retrieved context and Google Gemini to draft a reply.**
+**Draft email replies with the help of your tone choice and relevant examples.**
 
-[![Repository](https://img.shields.io/badge/GitHub-Source-24292f?logo=github)](https://github.com/chyk2468/MailMind-AI)
+[![GitHub](https://img.shields.io/badge/GitHub-Source-24292f?logo=github)](https://github.com/chyk2468/MailMind-AI)
 
 ## 1. Project Title & Tagline
 
-MailMind is a Streamlit app that finds similar example emails with a local vector store, then uses the retrieved context and Google Gemini to draft a reply.
+Draft email replies with the help of your tone choice and relevant examples.
 
 ## 2. Problem Statement
 
-MailMind is a Streamlit app that finds similar example emails with a local vector store, then uses the retrieved context and Google Gemini to draft a reply.
-
-This project matters because it provides a repeatable way to handle the task described above instead of relying entirely on a manual or ad hoc process.
+Writing a reply that fits the message and the intended tone takes time. MailMind retrieves similar examples and uses them as context for a generated draft.
 
 ## 3. Project Preview
 
-No screenshot or GIF is currently linked in this README. Add a real application screenshot, recorded GIF, or public demo link when available.
+![MailMind AI screenshot](../Working%20Screenshot.png)
 
-[Browse repository files](https://github.com/chyk2468/MailMind-AI)
-
-[Open the interactive architecture](docs/architecture.html)
+[Interactive architecture explorer](architecture.html)
 
 ## 4. Overview
 
-MailMind is a Streamlit app that finds similar example emails with a local vector store, then uses the retrieved context and Google Gemini to draft a reply.
+The Streamlit interface accepts a message and tone, the RAG engine retrieves related examples from a local ChromaDB collection, and the generator creates a draft with Gemini. The user reviews the result before sending.
 
 ## 5. Key Features
 
-- Use the main interface or entry point to perform the project's documented task.
-- Review outputs before relying on them.
-- Check configuration and dependencies before running in a new environment.
+- Email or message input with tone selection.
+- Local semantic retrieval from sample emails.
+- Gemini-generated reply drafts grounded in retrieved examples.
+- Copy or download the generated text.
 
 ## 6. Architecture / Workflow
 
-![MailMind AI animated workflow](docs/readme-architecture.svg)
+![Animated MailMind AI workflow](readme-architecture.svg)
 
-The moving markers show the direction of the data flow. Open the [interactive architecture page](docs/architecture.html) to hover over or select a stage for more detail.
-
-1. Provide the required input.
-2. Run the project's main processing step.
-3. Review the output and any available metrics.
+The diagram animates the flow between stages. Open the [interactive architecture explorer](architecture.html) to select each stage and read its role.
 
 ## 7. Tech Stack
 
-**Stack:** Python, Streamlit, Sentence Transformers, ChromaDB, Gemini
+Python, Streamlit, Sentence Transformers, ChromaDB, Google Gemini
 
 ## 8. Installation & Setup
 
 ```bash
 git clone https://github.com/chyk2468/MailMind-AI.git
 cd MailMind-AI
+python -m venv .venv
+pip install -r requirements.txt
 ```
-
-Install the dependencies listed by the project and follow the configuration required by its entry point.
 
 ## 9. Usage
 
-1. Start the application using the command in Installation & Setup.
-2. Provide the input required by the interface or notebook.
-3. Inspect the generated output and check for errors.
+1. Configure the Gemini API key using the environment variable expected by the app.
+2. Start the interface with `streamlit run app.py`.
+3. Enter an email, choose a tone, and generate a draft.
+4. Check the result before copying it into your email client.
 
 ## 10. Project Structure
 
-The repository root contains the project's source and configuration files. Start with the main application or notebook entry point, then follow the imported modules.
+- `app.py`: Streamlit interface
+- `rag_engine.py`: retrieval and context preparation
+- `ai_generator.py`: Gemini reply generation
+- `sample_data/`: example messages
+- `requirements.txt`: Python dependencies
 
 ## 11. Results & Demo
 
-No published benchmark or hosted demo is documented in the current README. Run the project locally and record representative outputs, screenshots, and metrics here.
-
-
+The repository includes `Working Screenshot.png`. Use it as the current visual reference. Add a short GIF of the message-to-draft flow when a fresh recording is available.
 
 ## 12. Future Enhancements
 
-- Add tests for the main workflow and edge cases.
-- Improve input validation and error messages.
-- Document representative results and known limitations.
-- Prioritise additional features based on real usage.
+- Add tests for retrieval quality and tone consistency.
+- Add support for user-managed example collections.
+- Show retrieved context sources beside each draft.
+- Add configurable privacy and retention controls.
 
 ## 13. License
 
-Check the repository for a `LICENSE` file. If none is present, the project does not yet state explicit reuse and redistribution terms.
-
----
-
-[Source code](https://github.com/chyk2468/MailMind-AI) · [Interactive workflow](docs/architecture.html)
+Check the repository for a `LICENSE` file. If absent, add a license before granting reuse or redistribution rights.
