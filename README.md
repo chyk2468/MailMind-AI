@@ -14,7 +14,7 @@ Writing a reply that fits the message and the intended tone takes time. MailMind
 
 ## 3. Project Preview
 
-![MailMind AI screenshot](../Working%20Screenshot.png)
+![MailMind AI screenshot](Working%20Screenshot.png)
 
 [Interactive architecture explorer](architecture.html)
 
