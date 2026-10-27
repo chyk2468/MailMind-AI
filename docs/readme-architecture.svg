@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+ <title id="title">MailMind AI workflow</title><desc id="desc">A Streamlit email assistant that retrieves similar example emails, combines them with a selected tone, and asks Gemini to draft a reply.</desc>
+ <rect width="1200" height="400" rx="18" fill="#F6F3EB"/>
+ <text x="56" y="42" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2.2" fill="#276B68">PROJECT MAP  /  WORKFLOW</text>
+ <text x="56" y="78" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#203334">MailMind AI</text>
+ <text x="56" y="105" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#657779">Email drafts grounded in your existing examples.</text>
+ <line x1="56" y1="125" x2="1144" y2="125" stroke="#D9DED6" stroke-width="1"/>
+ <path d="M 300 237 L 330 237" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 325 232 L 330 237 L 325 242" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 584 237 L 614 237" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 609 232 L 614 237 L 609 242" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 868 237 L 898 237" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 893 232 L 898 237 L 893 242" stroke="#657779" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g>
+    <rect x="56" y="158" width="236" height="158" rx="12" fill="#FFFFFF" stroke="#D9DED6" stroke-width="1.4"/>
+    <rect x="56" y="158" width="236" height="5" rx="2.5" fill="#276B68"/>
+    <text x="73" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#276B68">01 / EMAIL INPUT</text>
+    <text x="73" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#203334">Paste message</text>
+    <text x="73" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#657779">Pick a reply tone.</text>
+  </g><g>
+    <rect x="340" y="158" width="236" height="158" rx="12" fill="#FFFFFF" stroke="#D9DED6" stroke-width="1.4"/>
+    <rect x="340" y="158" width="236" height="5" rx="2.5" fill="#B98B4D"/>
+    <text x="357" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#B98B4D">02 / RETRIEVE CONTEXT</text>
+    <text x="357" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#203334">Embed the email</text>
+    <text x="357" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#657779">Find similar examples in ChromaDB.</text>
+  </g><g>
+    <rect x="624" y="158" width="236" height="158" rx="12" fill="#FFFFFF" stroke="#D9DED6" stroke-width="1.4"/>
+    <rect x="624" y="158" width="236" height="5" rx="2.5" fill="#78918B"/>
+    <text x="641" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#78918B">03 / BUILD PROMPT</text>
+    <text x="641" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#203334">Add useful context</text>
+    <text x="641" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#657779">Keep the selected tone and intent.</text>
+  </g><g>
+    <rect x="908" y="158" width="236" height="158" rx="12" fill="#FFFFFF" stroke="#D9DED6" stroke-width="1.4"/>
+    <rect x="908" y="158" width="236" height="5" rx="2.5" fill="#276B68"/>
+    <text x="925" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#276B68">04 / DRAFT REPLY</text>
+    <text x="925" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#203334">Gemini 2.0 Flash</text>
+    <text x="925" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#657779">Copy the text or save it.</text>
+  </g>
+ <text x="56" y="358" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#276B68">IMPLEMENTATION NOTE</text>
+ <text x="56" y="380" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#657779">Local retrieval supports the prompt; Gemini generates the final reply.</text>
+</svg>
