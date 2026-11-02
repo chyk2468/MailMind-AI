@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">MailMind AI Banner</title>
+  <desc id="svg-desc">Tone-controlled email replies grounded in a local example store</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#131C2E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131C2E"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)" stroke="#23334D" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#accentGrad)"/>
+  <rect x="48" y="38" width="110" height="24" rx="12" fill="#23334D" opacity="0.6"/>
+  <text x="103" y="54" text-anchor="middle" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">AI SYSTEMS</text>
+  <text x="48" y="112" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">MailMind AI</text>
+  <text x="48" y="150" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400">Tone-controlled email replies grounded in a local example store</text>
+  <rect x="48" y="194" width="82" height="32" rx="16" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+  <text x="89" y="215" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">Python</text>
+  <rect x="140" y="194" width="109" height="32" rx="16" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+  <text x="194" y="215" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">streamlit</text>
+  <rect x="259" y="194" width="199" height="32" rx="16" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+  <text x="358" y="215" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">google-generativeai</text>
+  <rect x="468" y="194" width="145" height="32" rx="16" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+  <text x="540" y="215" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">python-dotenv</text>
+  <rect x="623" y="194" width="154" height="32" rx="16" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+  <text x="700" y="215" text-anchor="middle" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">RAG + generati</text>
+</svg>

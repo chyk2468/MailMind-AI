@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="448" viewBox="0 0 1200 448" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">MailMind AI Architecture Architecture</title>
+  <desc id="svg-desc">System Architecture Layers</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#131C2E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131C2E"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="448" rx="16" fill="url(#bgGrad)" stroke="#23334D" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#accentGrad)"/>
+  <text x="48" y="48" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="2">SYSTEM ARCHITECTURE</text>
+  <text x="48" y="72" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">MailMind AI Architecture</text>
+  <g filter="url(#glow)">
+    <rect x="48" y="104" width="1104" height="68" rx="10" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+    <rect x="48" y="104" width="8" height="68" rx="3" fill="#38BDF8"/>
+    <text x="76" y="132" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Streamlit UI</text>
+    <text x="76" y="154" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13">Email paste, tone, reply pane</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="48" y="186" width="1104" height="68" rx="10" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+    <rect x="48" y="186" width="8" height="68" rx="3" fill="#818CF8"/>
+    <text x="76" y="214" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">RAG engine</text>
+    <text x="76" y="236" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13">Chroma collection email_knowledge_base</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="48" y="268" width="1104" height="68" rx="10" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+    <rect x="48" y="268" width="8" height="68" rx="3" fill="#38BDF8"/>
+    <text x="76" y="296" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Generator</text>
+    <text x="76" y="318" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13">google-generativeai gemini-2.0-flash</text>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="48" y="350" width="1104" height="68" rx="10" fill="#131C2E" stroke="#23334D" stroke-width="1.2"/>
+    <rect x="48" y="350" width="8" height="68" rx="3" fill="#34D399"/>
+    <text x="76" y="378" fill="#F1F5F9" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Seed data</text>
+    <text x="76" y="400" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="13">Eight-tone example emails</text>
+  </g>
+</svg>
